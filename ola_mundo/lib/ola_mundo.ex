@@ -11,6 +11,9 @@ defmodule OlaMundo do
       iex> OlaMundo.hello()
       :world
 
+      iex> OlaMundo.hello("Ciclano")
+      "Olá Ciclano"
+
   """
   def hello do
     :world
