@@ -8,8 +8,8 @@ use Mix.Config
 # with webpack to recompile .js and .css sources.
 config :ola_api, OlaApiWeb.Endpoint,
   http: [port: 4000],
-  debug_errors: true,
-  code_reloader: true,
+  debug_errors: false,
+  code_reloader: false,
   check_origin: false,
   watchers: []
 
