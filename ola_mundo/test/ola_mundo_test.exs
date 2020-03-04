@@ -6,7 +6,11 @@ defmodule OlaMundoTest do
     assert OlaMundo.hello() == :world
   end
 
-  test "saudações ao fulano" do
-    assert OlaMundo.hello_fulano() == "Olá Fulano"
+  test "saudações ao Fulano" do
+    assert OlaMundo.hello("Fulano") == "Olá Fulano"
+  end
+
+  test "saudações ao Beltrano" do
+    assert OlaMundo.hello("Beltrano") == "Olá Beltrano"
   end
 end
