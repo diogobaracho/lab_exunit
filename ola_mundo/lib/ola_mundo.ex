@@ -16,7 +16,7 @@ defmodule OlaMundo do
     :world
   end
 
-  def hello_fulano do
-    "Olá Fulano"
+  def hello(name) do
+    "Olá #{name}"
   end
 end
